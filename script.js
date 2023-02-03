@@ -1,4 +1,4 @@
-
+/**
 for (var i = 0; i < document.querySelectorAll("button").length; i++) {
   document.querySelectorAll("button")[i].addEventListener("click", function(){
       var buttonInnerhtml = this.innerHTML;
@@ -6,6 +6,7 @@ for (var i = 0; i < document.querySelectorAll("button").length; i++) {
       pianoSounds(buttonInnerhtml);
   });
 }
+**/
 document.addEventListener("keypress", function(event){
   pianoSounds(event.key);
 });
